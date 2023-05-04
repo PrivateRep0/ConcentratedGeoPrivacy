@@ -24,5 +24,9 @@ For example, to run the test in Figure 5(b):
 ```test
 python test_convh_m.py
 ```
+## Data Source
+The dataset in the ./data/ folder is from: 
+CRAWDAD dataset epfl/mobility (v. 2009-02-24). Downloaded from https://crawdad.org/epfl/mobility/20090224. https://doi.org/10.15783/C7J010
+
 ## Compute Resources
 All experiments reported in the paper were run on a linux machine with 8 CPUs and 32GB RAM. <br/>
