@@ -249,6 +249,6 @@ m_len_fix = ms[3]
 if __name__ == '__main__':
     run_range = range(0,5)
     tick = time()
-    print('Starting test_traj_rho2 for range '+str(run_range[0])+' - '+str(run_range[-1]))
+    print('Starting test_traj_rho for range '+str(run_range[0])+' - '+str(run_range[-1]))
     test_traj_rho(folder_in, num_rep, m_len_fix, rhos, eps_deltas, seeds, run_range, folder_out_prefix='./results/test_traj_rho/', delta=delta_fix, b_cont=False, b_mp=True)
     print('Finished. Time elapsed: ',time() - tick)

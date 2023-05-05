@@ -249,6 +249,6 @@ m_len_fix = ms[3]
 if __name__ == '__main__':
     run_range = range(0,5)
     tick = time()
-    print('Starting test_pnn2_rho for range '+str(run_range[0])+' - '+str(run_range[-1]))
+    print('Starting test_pnn_rho for range '+str(run_range[0])+' - '+str(run_range[-1]))
     test_kpnn_rho2(folder_in, num_rep, m_len_fix, ks, rhos, eps_deltas, seeds, run_range, folder_out_prefix='./results/test_kpnn_rho/', delta=delta_fix, visit_txt='./visited.txt', b_cont=False, b_mp=True)
     print('Finished. Time elapsed: ',time() - tick)

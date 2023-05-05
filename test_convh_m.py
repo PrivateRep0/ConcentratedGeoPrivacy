@@ -250,5 +250,5 @@ if __name__ == '__main__':
     run_range = range(0,5)
     tick = time()
     print('Starting test_convh_m for range '+str(run_range[0])+' - '+str(run_range[-1]))
-    test_convh_m(folder_in, num_rep, ms, rho_fix, eps_delta_fix, seeds, run_range, folder_out_prefix='./results/test_convh_rho/', delta=delta_fix, b_cont=False, b_mp=True)
+    test_convh_m(folder_in, num_rep, ms, rho_fix, eps_delta_fix, seeds, run_range, folder_out_prefix='./results/test_convh_m/', delta=delta_fix, b_cont=False, b_mp=True)
     print('Finished. Time elapsed: ',time() - tick)
